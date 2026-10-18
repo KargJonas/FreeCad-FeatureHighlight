@@ -22,14 +22,14 @@ Features inside Parts and bodies shown through Links are highlighted where they 
 
 **Addon Manager** (recommended):
 Edit → Preferences → Addon Manager → Custom repositories → add
-`https://github.com/KargJonas/FreeCad-FeatureHighlight` with branch `main`.
+`https://github.com/KargJonas/FreeCad-FeatureHighlight` with branch `release`.
 Then install *FeatureHighlight* from the Addon Manager and restart FreeCAD.
 
 **Manually:** clone this repository into your FreeCAD `Mod` folder
 (`~/.local/share/FreeCAD/v1-1/Mod/` on Linux for FreeCAD 1.1, see `App.getUserAppDataDir()`) and restart FreeCAD:
 
 ```sh
-git clone https://github.com/KargJonas/FreeCad-FeatureHighlight ~/.local/share/FreeCAD/v1-1/Mod/FeatureHighlight
+git clone -b release https://github.com/KargJonas/FreeCad-FeatureHighlight ~/.local/share/FreeCAD/v1-1/Mod/FeatureHighlight
 ```
 
 ## Use
@@ -38,6 +38,16 @@ Highlighting is on after installing. Toggle it with **V, H** or the *Feature Hig
 the PartDesign workbench. The setting is remembered across sessions.
 
 Requires FreeCAD 1.1 or newer.
+
+## Development
+
+Work happens on `main`, which carries a `-dev` version. The `release` branch is what the Addon Manager
+installs, and every change on it gets a new version. To publish the current `main`:
+
+```sh
+./release.sh 0.2.0   # merges main into release, sets version/date, tags v0.2.0, bumps main to 0.2.1-dev
+git push origin main release v0.2.0
+```
 
 ## License
 
