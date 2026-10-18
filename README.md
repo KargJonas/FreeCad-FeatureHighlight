@@ -3,6 +3,8 @@
 A FreeCAD addon. Select a PartDesign feature in the tree and see what it does to the model,
 without making it visible or double-clicking it into edit mode.
 
+![Clicking through the PartDesign tree: pads light up green, pockets red, the fillet's edges orange and sketches yellow](Resources/Media/demo.gif)
+
 | Selected in the tree | Highlighted |
 |---|---|
 | Pad, Revolution, additive loft/pipe/primitive | the added material, transparent green |
