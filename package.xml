@@ -10,9 +10,9 @@
     <author email="jonas.karg@hotmail.com">Jonas Karg</author>
     <license file="LICENSE">LGPL-2.1-or-later</license>
 
-    <url type="repository" branch="main">https://github.com/KargJonas/FeatureHighlight</url>
-    <url type="bugtracker">https://github.com/KargJonas/FeatureHighlight/issues</url>
-    <url type="readme">https://github.com/KargJonas/FeatureHighlight/blob/main/README.md</url>
+    <url type="repository" branch="main">https://github.com/KargJonas/FreeCad-FeatureHighlight</url>
+    <url type="bugtracker">https://github.com/KargJonas/FreeCad-FeatureHighlight/issues</url>
+    <url type="readme">https://github.com/KargJonas/FreeCad-FeatureHighlight/blob/main/README.md</url>
 
     <icon>Resources/Icons/FeatureHighlight.svg</icon>
 

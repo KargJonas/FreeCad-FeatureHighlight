@@ -22,14 +22,14 @@ Features inside Parts and bodies shown through Links are highlighted where they 
 
 **Addon Manager** (recommended):
 Edit → Preferences → Addon Manager → Custom repositories → add
-`https://github.com/KargJonas/FeatureHighlight` with branch `main`.
+`https://github.com/KargJonas/FreeCad-FeatureHighlight` with branch `main`.
 Then install *FeatureHighlight* from the Addon Manager and restart FreeCAD.
 
 **Manually:** clone this repository into your FreeCAD `Mod` folder
 (`~/.local/share/FreeCAD/v1-1/Mod/` on Linux for FreeCAD 1.1, see `App.getUserAppDataDir()`) and restart FreeCAD:
 
 ```sh
-git clone https://github.com/KargJonas/FeatureHighlight ~/.local/share/FreeCAD/v1-1/Mod/FeatureHighlight
+git clone https://github.com/KargJonas/FreeCad-FeatureHighlight ~/.local/share/FreeCAD/v1-1/Mod/FeatureHighlight
 ```
 
 ## Use
