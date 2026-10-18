@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<package format="1" xmlns="https://wiki.freecad.org/Package_Metadata">
+
+    <name>FeatureHighlight</name>
+    <description>Select a PartDesign feature in the tree to see what it adds (green) or removes (red), drawn on top of the model, without making it visible or opening it for editing.</description>
+    <version>0.1.0</version>
+    <date>2026-10-18</date>
+
+    <maintainer email="jonas.karg@hotmail.com">Jonas Karg</maintainer>
+    <author email="jonas.karg@hotmail.com">Jonas Karg</author>
+    <license file="LICENSE">LGPL-2.1-or-later</license>
+
+    <url type="repository" branch="main">https://github.com/KargJonas/FeatureHighlight</url>
+    <url type="bugtracker">https://github.com/KargJonas/FeatureHighlight/issues</url>
+    <url type="readme">https://github.com/KargJonas/FeatureHighlight/blob/main/README.md</url>
+
+    <icon>Resources/Icons/FeatureHighlight.svg</icon>
+
+    <freecadmin>1.1.0</freecadmin>
+
+    <tag>PartDesign</tag>
+    <tag>visualization</tag>
+    <tag>selection</tag>
+
+    <content>
+        <other/>
+    </content>
+
+</package>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SPDX-License-Identifier: LGPL-2.1-or-later -->
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <!-- base block -->
+  <path d="M8 38 L32 50 L56 38 L56 50 L32 62 L8 50 Z" fill="#7a8796" stroke="#2e3640" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M8 38 L32 26 L56 38 L32 50 Z" fill="#a9b4c0" stroke="#2e3640" stroke-width="2" stroke-linejoin="round"/>
+  <!-- highlighted feature sitting on top -->
+  <path d="M20 22 L32 28 L44 22 L44 36 L32 42 L20 36 Z" fill="#26d940" fill-opacity="0.75" stroke="#0d6b1a" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M20 22 L32 16 L44 22 L32 28 Z" fill="#7dff8e" fill-opacity="0.85" stroke="#0d6b1a" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M32 28 L32 42" stroke="#0d6b1a" stroke-width="2"/>
+  <!-- tree cursor hint -->
+  <path d="M46 4 L46 16 L49 13 L52 19 L54 18 L51 12 L55 12 Z" fill="#ffffff" stroke="#2e3640" stroke-width="1.5" stroke-linejoin="round"/>
+</svg>
