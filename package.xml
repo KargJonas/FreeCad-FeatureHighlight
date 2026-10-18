@@ -3,7 +3,7 @@
 
     <name>FeatureHighlight</name>
     <description>Select a PartDesign feature in the tree to see what it adds (green) or removes (red), drawn on top of the model, without making it visible or opening it for editing.</description>
-    <version>0.1.0</version>
+    <version>0.1.1-dev</version>
     <date>2026-10-18</date>
 
     <maintainer email="jonas.karg@hotmail.com">Jonas Karg</maintainer>
